@@ -9,10 +9,10 @@ function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 400,
-    height: 400
+    height: 504
   });
 
-  // mainWindow.setMenuBarVisibility(false);
+  //mainWindow.setMenuBarVisibility(false);
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')

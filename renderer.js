@@ -5,6 +5,18 @@
 // selectively enable features needed in the rendering
 // process.
 
+let url = "http://api.openweathermap.org/data/2.5/weather?q=Shizuoka,JP&appid=95e174d6ea9a1d5fae374dda3a11df23&units=metric";
+
+
+// const request = net.request({
+//   method: 'GET',
+//   protocol: 'https:',
+//   hostname: '',
+//   port: 443,
+//   path: url
+// })
+
+
 const deg = 6;
 const hr = document.querySelector('#hr');
 const mn = document.querySelector('#mn');
@@ -21,5 +33,5 @@ setInterval(function()  {
   mn.style.transform = `rotateZ(${mm}deg)`;
   sc.style.transform = `rotateZ(${ss}deg)`;
 
-  
+
 }, 1000);

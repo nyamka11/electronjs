@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 body  {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   min-height: 100vh;
   background-color: #091921;
 }
@@ -83,4 +83,17 @@ body  {
   background: #fff;
   z-index:12;
   border-radius: 6px 6px 0 0;
+}
+.weatherCase {
+  border: 1px solid red;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dayBox {
+  border: 1px solid red;
+  height: 100%;
+  width: 33.3%;
+  color: white;
 }
